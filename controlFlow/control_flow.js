@@ -48,3 +48,25 @@ console.log("User Category:", userCategory);
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+
+
+let role = "Employee";
+let Dietary_Service_Auth;
+let One_On_One_Auth
+
+switch(role){
+    case "Employee":
+        Dietary_Service_Auth = true;
+        One_On_One_Auth = false;
+        break;
+    case "Enrolled Member":
+        Dietary_Service_Auth = true;
+        One_On_One_Auth = true;
+        break;
+    case "Non-Subscriber":
+        Dietary_Service_Auth = false;
+        One_On_One_Auth = false;
+        break;
+}
+console.log("Dietary Services are " +(Dietary_Service_Auth ? "Avalible" : "Not Avalible"));
+console.log("One on One dietician services are " + (One_On_One_Auth ? "Avalible" : "Not Avalible"));
