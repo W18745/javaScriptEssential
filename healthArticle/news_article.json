@@ -1,0 +1,22 @@
+{
+    "articles": [
+      {
+        "title": "Robber Caught Stealing",
+        "description": "Long time thief caught in middle of theft ring",
+        "Highlights": [
+          "Avoid Downtown.",
+          "Report Suspicious Activity to the  Police.",
+          "Dont Engage."
+        ]
+      },
+      {
+        "title": "Robber Out on bail",
+        "description": "Long time thief let go on probation, locals worried",
+        "Highlights": [
+          "Probation.",
+          "Local Fears crime uptick"
+        ]
+      }
+    ]
+  }
+  
